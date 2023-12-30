@@ -1,4 +1,4 @@
-# Loop runs the app
+# creats Loop that runs the app
 task = []
 if __name__ == '__main__':
 
