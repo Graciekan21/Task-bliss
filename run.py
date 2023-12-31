@@ -18,15 +18,16 @@ def add_task(new_task):
     tasks.append(task)
     print("Task added successfully.")
 
-## This Funtion list tasks in the to-do list
+## View tasks in the to-do list
 def list_tasks():
 if len(tasks) == 0:
 	print('no tasks.')
 else:
     print("no tasks.")
-    for i, task in enumerata(task):
-        print(f'{i+1}. {task}')
+for i, task in enumerate(task):
+    print(f'{i+1}. {task}')
 
+## 
 
 	
 	
