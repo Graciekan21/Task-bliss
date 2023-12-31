@@ -15,7 +15,7 @@ task = []
 ## Function for user to add task
 def add_task(new_task):
     task = input('please enter a task: ')
-    tasks.appen(task)
+    tasks.appen({"task":task, 'completed':False})
     print(f'task '{Task}' added to the list.')
 
 def main():
