@@ -15,13 +15,21 @@ task = []
 ## Function for user to add task
 def add_task(new_task):
     task = input('please enter a task: ')
-    tasks.appen({"task":task, 'completed':False})
-    print(f'task '{Task}' added to the list.')
+    tasks.append(task)
+    print("Task added successfully.")
 
-def main():
-	    print('To-do list')
-	    add_task('Take kids to school')
-	    add_task('Bake cakes that where ordered', )
+## This Funtion list tasks in the to-do list
+def list_tasks():
+if len(tasks) == 0:
+	print('no tasks.')
+else:
+    print("no tasks.")
+    for i, task in enumerata(task):
+        print(f'{i+1}. {task}')
+
+
+	
+	
         
 	    
 if __name__ == '__main__':
