@@ -35,7 +35,7 @@ def delete_tasks():
         del Tasks[choice-1]
         print('Task deleted successfully. ')
         else:
-            print('Inalid task number. ')
+            print('Invalid task number. ')
 
 def main():
     """
