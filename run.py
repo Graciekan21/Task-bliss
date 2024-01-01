@@ -34,39 +34,36 @@ def delete_tasks():
     if 0 < choice <= len(Tasks):
         del Tasks[choice-1]
         print('Task deleted successfully. ')
-        else:
-            print('Invalid task number. ')
+    else:
+        print('Invalid task number. ')
 
 def main():
     """
     Funtion that calls all the Functions to run in the command-line To-do list
     """
+
 ###  This creates an infinite loop
+
 while true:
-
-###  This will print an empty line in each iteration of the loop
-print('\n-------To-Do-List Application------')
-
-###  Menu options 
-print('1. Add a new task')
-print('2. list a task')
-print('3. Delete a task')
-print('4. Quit')
-
+        print('1. Add a new task')
+        print('2. list a task')
+        print('3. Delete a task')
+        print('4. Quit')
 ## This calls all the function to perform as they should
 choice = int(input("Enter your choice:")) 
 if choice == 1:
-    add_task()
-    elif choice == 2:
-         list_tasks()
+      add_task()
+elif  choice == 2:
+      list_tasks()
 
-    elif choice == 3:
-        delete a task()
+elif choice == 3:
+     delete a task()
 
-    elif choice == 4:  
+elif choice == 4:  
         print(Good Luck for using the To-Do-List Application.') 
         break
     else:
         print('wrong choice. Please try again. ')
 
 if __name__ == '__main__':
+    main()
