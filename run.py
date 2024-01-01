@@ -19,18 +19,10 @@ else:
 for i, task in enumerate(task):
     print(f'{i+1}. {task}')
 
-def delete_tasks():
-    """
-    Delete task from the list
-    """
-    if len(Tasks) == 0:
-        print('no tasks to delete.')
-    for i, task in enumerate(tasks):
+## Delete task from the To-do list
 
-def delete_tasks        
-    """
-    Delete task from the To-do list
-    """
+def delete_tasks():        
+    
     if len(Tasks) == 0:
         print('no tasks to delete.')
     else:
@@ -72,7 +64,7 @@ if choice == 1:
         delete a task()
 
     elif choice == 4:  
-        print(Good Luck for using the To-Do-List Application. ') 
+        print(Good Luck for using the To-Do-List Application.') 
         break
     else:
         print('wrong choice. Please try again. ')
