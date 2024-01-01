@@ -1,15 +1,4 @@
-"""
-ToDo List App
-
-This implements a command-line to-do list App
-that is functional for tasks.
-
-How to use:
-- Follow the script to start the Todo List App.
-
-Functions:
-"""
-## creats Loop that runs the app
+##creats Loop that runs the app
 task = []
 
 ## Function for user to add task
@@ -18,16 +7,29 @@ def add_task(new_task):
     tasks.append(task)
     print("Task added successfully.")
 
-## View tasks in the to-do list
+
 def list_tasks():
+    """
+    View tasks in the list
+    """
 if len(tasks) == 0:
 	print('no tasks.')
 else:
-    print("no tasks.")
+    print("List of tasks .")
 for i, task in enumerate(task):
     print(f'{i+1}. {task}')
 
-## 
+def delete_tasks():
+    """
+    Delete task from the list
+    """
+    if len(Tasks) == 0:
+        print('no tasks to delete.')
+        for i, task in enumerate(tasks):
+
+ 
+
+
 
 	
 	
