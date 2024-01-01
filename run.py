@@ -28,7 +28,7 @@ def delete_tasks():
     else:
         print('Tasks')
         for i, task in enumerate(tasks):
-            print(f'{i+1}. {tast')
+        print(f'{i+1}. {task')
         choice = int(input('Enter task number to delete:'))  
 
     if 0 < choice <= len(Tasks):
@@ -57,13 +57,13 @@ elif  choice == 2:
       list_tasks()
 
 elif choice == 3:
-     delete a task()
+     delete_task()
 
 elif choice == 4:  
-        print(Good Luck for using the To-Do-List Application.') 
+        print('Good Luck for using the To-Do-List Application.') 
         break
-    else:
-        print('wrong choice. Please try again. ')
+else:
+        print('In choice. Please try again. ')
 
 if __name__ == '__main__':
     main()
