@@ -28,7 +28,7 @@ def delete_tasks():
     else:
         print('Tasks')
         for i, task in enumerate(tasks):
-        print(f'{i+1}. {task')
+        print(f'{i+1}. {task}')
         choice = int(input('Enter task number to delete:'))  
 
     if 0 < choice <= len(Tasks):
