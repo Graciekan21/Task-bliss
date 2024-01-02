@@ -2,9 +2,9 @@
 tasks = []
 
 ## Function for user to add task
-def add_task(new_task):
-    task = input('please enter a task: ')
-    tasks.append(task)
+def add_task():
+    new_task = input('please enter a task: ')
+    tasks.append(new_task)
     print("Task added successfully.")
 
 
@@ -13,26 +13,26 @@ def list_tasks():
     View tasks in the list
     """
 if len(tasks) == 0:
-	print('no tasks.')
+	print('No tasks.')
 else:
-    print("List of tasks .")
-for i, task in enumerate(task):
+    print("List of tasks:")
+for i, task in enumerate(tasks):
     print(f'{i+1}. {task}')
 
 ## Delete task from the To-do list
 
 def delete_tasks():        
     
-    if len(Tasks) == 0:
-        print('no tasks to delete.')
+    if len(tasks) == 0:
+        print('No tasks to delete.')
     else:
         print('Tasks')
         for i, task in enumerate(tasks):
         print(f'{i+1}. {task}')
         choice = int(input('Enter task number to delete:'))  
 
-    if 0 < choice <= len(Tasks):
-        del Tasks[choice-1]
+    if 0 < choice <= len(tasks):
+        del tasks[choice-1]
         print('Task deleted successfully. ')
     else:
         print('Invalid task number. ')
@@ -44,13 +44,14 @@ def main():
 
 ###  This creates an infinite loop
 
-while true:
+while True:
         print('1. Add a new task')
-        print('2. list a task')
+        print('2. List a task')
         print('3. Delete a task')
         print('4. Quit')
 ## This calls all the function to perform as they should
-choice = int(input("Enter your choice:")) 
+choice = int(input("Enter your choice: ")) 
+
 if choice == 1:
       add_task()
 elif  choice == 2:
@@ -60,10 +61,10 @@ elif choice == 3:
      delete_task()
 
 elif choice == 4:  
-        print('Good Luck for using the To-Do-List Application.') 
+        print('Good Luck using the To-Do-List Application.') 
         break
 else:
-        print('In choice. Please try again. ')
+        print('Invalid choice. Please try again. ')
 
 if __name__ == '__main__':
     main()
