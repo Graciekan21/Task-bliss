@@ -1,23 +1,23 @@
-##.This creats Loop that runs the app
+## This creats Loop that runs the app
 tasks = []
 
 ## Function for user to add task
 def add_task():
     new_task = input('please enter a task: ')
     tasks.append(new_task)
-    print("Task added successfully.")
+    print(f"Task '{task}' added successfully.")
 
 
 def list_tasks():
     """
     View tasks in the list
     """
-if len(tasks) == 0:
-	print('=====To-Do List=====')
+if not tasks:
+	print('No tasks currently added')
 else:
-    print("List of tasks:")
-for i, task in enumerate(tasks):
-    print(f'{i+1}. {task}')
+    print("New tasks:")
+for index, task in enumerate(tasks):
+    print(f'Task number{index}. {task}')
 
 ## Delete task from the To-do list
 
@@ -25,9 +25,9 @@ def delete_task():
     list_tasks() 
     try:
         taskToDelete = int(input('Enter the number to delete: '))
-    if taskToDelete >=0 and taskToDelete < len(tasks):
-        tasks.pop(taskToDelete)
-    
+    if taskToDelete < len(tasks):
+       del tasks[taskToDelete]
+            tasks.pop(taskToDelete)
         print(f'Task {taskToDelete} deleted successfully. ')
     else:
         print(f'Task number{task} not found.')    
@@ -42,6 +42,7 @@ def main():
 ###  This creates an infinite loop
 
 while True:
+    print('\n======== To-Do-List Tasks Application ========')
     print('1. Add a new task')
     print('2. List a task')
     print('3. Delete a task')
