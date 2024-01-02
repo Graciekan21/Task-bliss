@@ -13,7 +13,7 @@ def list_tasks():
     View tasks in the list
     """
 if len(tasks) == 0:
-	print('To-Do List.')
+	print('=====To-Do List=====')
 else:
     print("List of tasks:")
 for i, task in enumerate(tasks):
@@ -21,22 +21,24 @@ for i, task in enumerate(tasks):
 
 ## Delete task from the To-do list
 
-def delete_tasks(): 
+def delete_task(): 
     list_tasks() 
-
+    try:
+        taskToDelet = 
     if len(tasks) == 0:
         print('No tasks to delete.')
     else:
         print('Tasks')
         for i, task in enumerate(tasks):
             print(f'{i+1}. {task}')
-        choice = int(input('Enter task number to delete:'))  
+        choice = int(input('Enter task_number to delete:'))  
 
-    if 0 < choice <= len(tasks):
-        del tasks[choice-1]
-        print('Task deleted successfully. ')
+    if choice >=0 and choice < len(tasks):
+        tasks.pop(choice)
     else:
-        print('Invalid task number. ')
+        print(f'Task task_number{choice} deleted successfully. ')
+    except:
+        print('lnvalid input.')
 
 def main():
     """
