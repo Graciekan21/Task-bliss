@@ -1,5 +1,5 @@
 ##.pppppcreats Loop that runs the app
-task = []
+tasks = []
 
 ## Function for user to add task
 def add_task(new_task):
