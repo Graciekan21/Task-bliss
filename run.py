@@ -24,19 +24,13 @@ for i, task in enumerate(tasks):
 def delete_task(): 
     list_tasks() 
     try:
-        taskToDelet = 
-    if len(tasks) == 0:
-        print('No tasks to delete.')
+        taskToDelete = int(input('Enter the number to delete: '))
+    if taskToDelete >=0 and taskToDelete < len(tasks):
+        tasks.pop(taskToDelete)
+    
+        print(f'Task {taskToDelete} deleted successfully. ')
     else:
-        print('Tasks')
-        for i, task in enumerate(tasks):
-            print(f'{i+1}. {task}')
-        choice = int(input('Enter task_number to delete:'))  
-
-    if choice >=0 and choice < len(tasks):
-        tasks.pop(choice)
-    else:
-        print(f'Task task_number{choice} deleted successfully. ')
+        print(f'Task number{task} not found.')    
     except:
         print('lnvalid input.')
 
