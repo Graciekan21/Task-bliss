@@ -10,11 +10,11 @@ def add_task():
     
 def list_tasks():
         if not tasks:
-            print("No new task:")
+            print("No tasks listed:")
         else:
             print('New tasks:')
         for index, task in enumerate(tasks):
-            print(f'Task number{index}. {task}')
+            print(f'Task choice{index}. {task}')
     
 # Delete task from the To-do list
     
