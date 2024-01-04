@@ -1,4 +1,4 @@
- # This creats Loop that runs the app
+# This creates Loop that runs the app
 tasks = []
 
 # Function for user to add task
@@ -70,6 +70,7 @@ def main():
 
         else:
             print("Invalid choice. Please try again. ")
+
 
 if __name__ == "__main__":
     main()
