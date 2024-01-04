@@ -1,5 +1,5 @@
 # To-Do List Bliss Application
-![To-Do header](./assets/images/flow-chart.png)
+![To-Do header](/assets/images/flow-chart.png)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
@@ -159,20 +159,13 @@ Error Messages:
 Provide informative error messages for better user understanding.
 
 
-![ name](/assets/images/cc-rm-name-error.png)
+![CCCCP hours](/assets/images/.png)
 
 
+ Based on information provided a calculation is made to determine pay before tax and then pay after tax and NI deductions.
 
 
-![CCCCP hours](/assets/images/cc-rm-13.png)
-
-
-
-
-Based on information provided a calculation is made to determine pay before tax and then pay after tax and NI deductions.
-
-
-![CCCCP confirm](/assets/images/cc-rm-check-information-ok.png)
+![CCCCP confirm](/assets/images/.png)
 
 The program checks that the contractor is ready to submit this information. 
 
