@@ -1,5 +1,5 @@
 # To-Do List Bliss Application
-![To-Do header](./assets/images/flow-chart.png)
+![To-Do header](./README.md/assets/images/flow-chart.png)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
@@ -74,7 +74,7 @@ Create a flowchart to visualize the flow of the application. Using  and system r
 
 
 
-![ notes](run.py/assets/images/)
+![ notes](assets/images/)
 
 ### Development
 
@@ -90,7 +90,7 @@ Write functions for adding tasks, listing tasks, and deleting tasks.
 Ensure these functions adhere to the logic outlined in the flowchart.
 
 
-![ name error](/assets/images/cc-rm-name-error.png)
+![ name error](/assets/images/To-Do-List.png)
 
 
 
@@ -217,7 +217,7 @@ Was used for indentation, it was my saving grace.
 
 ## Testing
 
-The App has been well tested and the results can be viewed [here - TESTING](https://github.com/todiane/corri-construction-p3/blob/main/TESTING.md)
+The App has been well tested and the results can be viewed [here-TESTING](https://githu/-p3/blob/main/TESTING.md)
 
 
 ## Future Updates
