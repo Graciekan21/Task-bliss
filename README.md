@@ -21,7 +21,7 @@ The deployed project live link is [HERE](https://task-bliss-bb2bc46bd6cf.herokua
   - [Quit](#quit)
   - [main Function](#main-function)
 - [Additional Considerations](#dditional-Considerations)
-- [Error Page](#error-page)
+- [ Error message](#error-message)
  - [Technologies Used](#technologies-used)
 - [Resources](#resources)
 - [Libraries](#libraries)
@@ -29,7 +29,7 @@ The deployed project live link is [HERE](https://task-bliss-bb2bc46bd6cf.herokua
 - [Validation](#validation)
 - [Deployment](#deployment)
 - [Heroku](#heroku)
-- [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#branching-the-github-repository-using-github-desktop-and-visual-studio-code)
+- [Branching the GitHub Repository using GitHub Desktop](#branching-the-github-repository-using-github-desktop)
 - [Bugs](#bugs)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
@@ -95,7 +95,7 @@ If the application is a commercial product, aim for a sustainable revenue model 
 ### Pre development
 By the help of this great tool (Lucid.app) i able  create a flow chart and that what i followed step by step. it cllear of it performance.
 
-![ flow chart](/assets/images/flow-chart.png)
+[ HERE](/https://lucid.app/lucidchart/fae51d00-791e-4c06-aad3-288e0c7d7465/edit?beaconFlowId=57B60594CCD410DE&invitationId=inv_29d0620b-981e-47fb-ae0a-ee177046555b&page=HWEp-vi-RSFO#/)
 
 
  
@@ -160,7 +160,7 @@ None specified in the flowchart.
 Option 4 allows users to exit the application, ending the to-do list management session.
 The application will display a messaga Good Luck
 
-![To-Do list Quit](/assets/images/cc-rm-profession-incorrect.png/)
+![To-Do list Quit](/assets/images/quit-end.png/)
 
 ### main() Function:
 Input: User selects options from the main menu.
@@ -171,7 +171,7 @@ Takes user input for their choice.
 Calls the corresponding function based on the user's choice.
 Loops until the user chooses to quit the application.
 
-![ ](/assets/images/cc-rm-check-information-ok.png)
+![ main](/assets/images/App-display.png)
 
 ### Additional Considerations:
 User Interface:
@@ -180,51 +180,55 @@ Looping:
 Utilize loops to allow users to perform multiple actions without restarting the application.
 Error Messages:
 Provide informative error messages for better user understanding.
+In the case where the user dose some thing unexpected then the error message will display as shown bellow
 
-
-![](/assets/images/.png)
-
- ### Error Page
-
-A 404 error page has been included. The html was run through the W3C html validator and errors removed. A css style file was created to support the display of the text on the page.
-
-
-### Display options 
+## Display options 
 - Add a task
 - List a tasks
 - Delete a task
 - Quit.
 This is what Displays when the command is run and the the user can select option by number, it gives all the insturtions needed.
 
-![Display options](assets/images/gsheet-rm-ccccp.png)
+[Display options](assets/images/Display.png/)
 
+ 
+ 
+ ## Technologies Used
 
-## Technologies Used
+## Resources Used
+- Codeanywhere 
+- pep8ci
+- GitHub 
+- Heroku
+- lucid
+- Lucid
+- ChartGTP
+- codebeautify
 
-### Lucid.app
+ ### Lucid.app
  I used Lucid to create the flow chart which helped mt develop the app.
 
 [Lucid.app](https://lucid.app/)
 
 ### ChartGpt 
 It was used correcting my Readme with spell checking 
-
+ And helped me to Generate,proofreading, understanding the code,
 ### codebeautify
 Was used for indentation, it was my saving grace.
 
-[codebeautify](https://codebeautify.org/python-formatter-beautifier)
+[codebeautify](https://codebeautify.org/python-formatter-beautifier/)
 
-### Libraries
+### Libraries Used
 [pip3](hhttps://pypi.org/project/pip/a/)
 
 ## Validated
 
-The app has been validated and it workes as it should [here-tesSting](https://githu/-p3/blob/main/va.md)
+The app has been validated and it workes as it should ![here-validated](/assets/images/validated%20.png/)
 
 
 ## Future Updates
 
-### User Authentication:
+- User Authentication:
 
 Introduce user authentication to allow multiple users to have personalized to-do lists.
 Each user could have a unique login, and their tasks would be stored securely.
@@ -242,8 +246,8 @@ The ability for a manager to log into the system and confirm working dates and d
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
  ## Validation
-
-pEP8 - Python style guide checker imported - https://pep8ci.herokuapp.com//
+  
+pEP8 - Python style guide checker imported - ![ HERE]https://pep8ci.herokuapp.com//
  
 The App performs well as it should but in the Pep8ci it show (all clear no errors found)
 ## Deployment
@@ -272,19 +276,20 @@ The Application has been deployed from GitHub to Heroku by following the steps:
 5. You will be asked if you want to clone the repository - say yes.
 6. GitHub desktop will suggest what to do next - select Open code using Visual Studio Code.
    
-The deployed project live link is [HERE]() - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project live link is [HERE](https://github.com/Graciekan21/Task-bliss) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 ## Bugs solved
 
-I faced alot of error indent and took me alot untill i used th tab key with the of stackoverflow, and slack
+- I faced alot of error indent, white space and took me alot untill i used (python-formatter-beautifier) to solve the problem.
+Every time i made a change in the code i pass it through formatter or it would show alot of indent and white space or not mulitply by 4
 
-[Bugs solved](hhttps://pypi.org/project/pip/a/)
+- For some reason images couldn't upload i spent hours on that and i was doing it the right way but they were not uploading. i sent hour on it thanks when the laptop closed and restarted the it worked 
 
-## Bug unsolved 
-I couldn't solve the error though tried but it doesn't affect the code only when the code passes through pEp8ci then it show up. i will look it up how to solve that if i get accounter  with it next time
-34: E722 do not use bare 'except'
+[Bugs solved](/assets/images/bugs-solved.png/)
+
 
 [Bugs unsolved](hhttps://pypi.org/project/pip/a/)
+No bugs in the code but i didn't not create error page in case the user 404 
 
 ### Acknowledgments
 Special thanks to all contributors who offered invaluable assistance during the development of the To-Do List Application. Your support and insights were instrumental in overcoming challenges and ensuring the success of this project. Your dedication, expertise, and willingness to share knowledge made a significant impact, and I am truly grateful for your contributions. Together, we created a robust and user-friendly To-Do List App that reflects the collaborative spirit of the coding community. Thank you for being an essential part of this journey.
