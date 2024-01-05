@@ -1,5 +1,5 @@
 # To-Do List Bliss Application
-![To-Do header](///)
+![To-do lisk header](/assets//)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
@@ -15,16 +15,16 @@ The deployed project live link is [HERE](/) - ***Use Ctrl (Cmd) and click to ope
 - [Pre development](#pre-development)
 - [Development](#development)
 - [Features](#features)
-  - [Add a New Task](#Add-a-task)
+  - [Add a New Task](#add-a-task)
   - [List Tasks](#List Tasks)
-  - [Delete Task](#Delete-Task)
+  - [Delete Task](#delete-Task)
   - [Quit](#Quit-message)
   - [main Function](#main-Function)
 - [Additional Considerations](#dditional-Considerations)
 - [Error Page](#error-page) - [Technologies Used](#technologies-used)
 - [Resources](#resources)
 - [Libraries](#libraries)
-- [Testing](#testing)
+- [Test](#testing)
 - [Future Updates](#future-updates)  
 - [Validation](#validation)
 - [Deployment](#deployment)
@@ -244,12 +244,10 @@ The ability for a manager to log into the system and confirm working dates and d
 
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
-## Testing 
-Other future updates are included in the TESTING.png file.
+ ## 
 
-[Testing](/)
+## vali
 
-#
 
 PEP8 - Python style guide checker imported - https://pep8ci.herokuapp.com//
 PEP8 - Python style guide checker imported - 
