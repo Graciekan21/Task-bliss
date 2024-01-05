@@ -114,7 +114,7 @@ Write functions for adding tasks, listing tasks, and deleting tasks.
 Ensure these functions adhere to the logic outlined in the flowchart.
 
 
-![ To-do list display](/assets/images/Display%20.)
+![ To-do list display](/assets/images/Display%20.png)
 
 
 
@@ -129,7 +129,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do List Bliss](/assets/images/cc-rm-profession-invalid.png)
+![To-Do List Bliss](/assets/images/task%20added%20.pnpng)
 
 ### List Tasks
 list_tasks() Function:
