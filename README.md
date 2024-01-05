@@ -4,7 +4,7 @@
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
 
-The deployed project live link is [HERE](/https://task-bliss-bb2bc46bd6cf.herokuapp.com) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project live link is [HERE](https://github.com/Graciekan21/Task-bliss/tree/Readme) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 ## Contents
 
@@ -25,7 +25,7 @@ The deployed project live link is [HERE](/https://task-bliss-bb2bc46bd6cf.heroku
  - [Technologies Used](#technologies-used)
 - [Resources](#resources)
 - [Libraries](#libraries)
-- [Test](#branching-the-github-repository-using-github-desktop-and-visual-studio-code)
+- [Test](#https://task-bliss-bb2bc46bd6cf.herokuapp.com/)
 - [Future Updates](#future-updates)  
 - [Validation](#validation)
 - [Deployment](#deployment)
@@ -242,12 +242,13 @@ The ability for a manager to log into the system and confirm working dates and d
 
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
- ## 
- The portal has been well tested and the results can be viewed [here - TESTING](hhttps://github.com/Graciekan21/Task-bliss/t/blob/main/)
- The portal has been well tested and the results can be viewed [here - TESTING]()
+ 
+## Testing
 
+The portal has been well tested and the results can be viewed live [here - TESTING](https://task-bliss-bb2bc46bd6cf.herokuapp.com/)
 
-## vali
+## Validation
+
 
 
 PEP8 - Python style guide checker imported - https://pep8ci.herokuapp.com//
