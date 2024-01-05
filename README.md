@@ -223,7 +223,7 @@ Was used for indentation, it was my saving grace.
 
 ## Validated
 
-The app has been validated and it workes as it should ![here-validated](/assets/images/validator.pg/)
+The app has been validated and it workes as it should ![validation](/assets/images/validator.pg/)
 
 
 ## Future Updates
@@ -247,7 +247,7 @@ Relevant information is accessible by the umbrella company so that HR doesn't ha
 
  ## Validation
 - App used for validation
-pEP8 - Python style guide checker imported - ![ HERE](/https://pep8ci.herokuapp.com/)
+pEP8 - Python style guide checker imported - [ HERE](/https://pep8ci.herokuapp.com/)
  
 The App performs well as it should but in the Pep8ci it show (all clear no errors found)
 ## Deployment
