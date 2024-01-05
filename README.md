@@ -223,7 +223,7 @@ Was used for indentation, it was my saving grace.
 
 ## Validated
 
-The app has been validated and it workes as it should ![here-validated](/assets/images/validated%20.png/)
+The app has been validated and it workes as it should ![here-validated](/assets/images/validator.pg/)
 
 
 ## Future Updates
@@ -302,11 +302,8 @@ helped me in understanding how to delete a task function works[here](https://cpp
 This was were i got the form of how to defining the function [here](https://www.javatpoint.com/simple-to-do-list-gui-application-in-python )
 
 
-Using colorama import - [here](https://www.youtube.com/watch?v=u51Zjlnui4Y )
+ - His channle helped me alot i got most of the idea from here  [here](https://www.youtube.com/watch?v=TuM-7HjHdaA&ab_channel=Nazal)
 
 
-- His channle helped me alot i got most of the idea from here  [here](https://www.youtube.com/watch?v=TuM-7HjHdaA&ab_channel=Nazal)
-
-
-I would like to express my heartfelt gratitude to Code Institute for providing an excellent learning environment and resources that enabled me to embark on and complete this coding project. A special thank you to the supportive community of fellow students on Slack, whose collaboration, insights, and encouragement were invaluable throughout this journey. Additionally, immense appreciation goes to my mentor, Jubril, for their guidance, expertise, and unwavering support. This project wouldn't have been possible without the collective efforts of the Code Institute community. Thank you all for being a crucial part of this learning experience.
+ I would like to express my heartfelt gratitude to Code Institute for providing an excellent learning environment and resources that enabled me to embark on and complete this coding project. A special thank you to the supportive community of fellow students on Slack, whose collaboration, insights, and encouragement were invaluable throughout this journey. Additionally, immense appreciation goes to my mentor, Jubril, for their guidance, expertise, and unwavering support. This project wouldn't have been possible without the collective efforts of the Code Institute community. Thank you all for being a crucial part of this learning experience.
 
