@@ -171,7 +171,7 @@ Takes user input for their choice.
 Calls the corresponding function based on the user's choice.
 Loops until the user chooses to quit the application.
 
-![ main](/assets/images/App-display.png)
+![ main](/assets/images/App-display.png/)
 
 ### Additional Considerations:
 User Interface:
@@ -223,7 +223,7 @@ Was used for indentation, it was my saving grace.
 
 ## Validated
 
-The app has been validated and it workes as it should ![validation](/assets/images/validator.pg/)
+The app has been validated and it workes as it should ![p8pci](/https://pep8ci.herokuapp.com/)
 
 
 ## Future Updates
@@ -247,9 +247,9 @@ Relevant information is accessible by the umbrella company so that HR doesn't ha
 
  ## Validation
 - App used for validation
-pEP8 - Python style guide checker imported - [ HERE](/https://pep8ci.herokuapp.com/)
+pEP8 - Python style guide checker imported - [ HERE](/assets/images/validation.png/)
  
-The App performs well as it should but in the Pep8ci it show (all clear no errors found)
+The App performs well as it should but in the Pep8ci it show (error 34: E722 do not use bare 'except' but it dosen't affect the performance of the app)
 ## Deployment
 
 ### Heroku
