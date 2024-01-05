@@ -4,7 +4,7 @@
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
 
-The deployed project live link is [HERE](/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project live link is [HERE](/https://task-bliss-bb2bc46bd6cf.herokuapp.com) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 ## Contents
 
@@ -15,21 +15,22 @@ The deployed project live link is [HERE](/) - ***Use Ctrl (Cmd) and click to ope
 - [Pre development](#pre-development)
 - [Development](#development)
 - [Features](#features)
-  - [Add a New Task](#add-a-task)
-  - [List Tasks](#List Tasks)
-  - [Delete Task](#delete-Task)
-  - [Quit](#Quit-message)
-  - [main Function](#main-Function)
+  - [Add a New Task](#add-a-new-task)
+  - [List Tasks](#list-tasksList-Tasks)
+  - [Delete Task](#delete-a-taskdelete-Task)
+  - [Quit](#quit)
+  - [main Function](#main-function)
 - [Additional Considerations](#dditional-Considerations)
-- [Error Page](#error-page) - [Technologies Used](#technologies-used)
+- [Error Page](#error-page)
+ - [Technologies Used](#technologies-used)
 - [Resources](#resources)
 - [Libraries](#libraries)
-- [Test](#testing)
+- [Test](#branching-the-github-repository-using-github-desktop-and-visual-studio-code)
 - [Future Updates](#future-updates)  
 - [Validation](#validation)
 - [Deployment](#deployment)
 - [Heroku](#heroku)
-- [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#)
+- [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#branching-the-github-repository-using-github-desktop-and-visual-studio-code)
 - [Bugs](#bugs)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
@@ -93,15 +94,12 @@ Monetization (if applicable):
 If the application is a commercial product, aim for a sustainable revenue model that benefits both the users and the business.
 
 ### Pre development
-By the help of this great tool i create a flow chart Adds a task to list.,List tasks that are added to the Listt a
+By the help of this great tool (Lucid.app) i able  create a flow chart and that what i followed step by step. it cllear of it performance.
 
-[Lucid.app](https://lucid.app/)
-
-
+![ flow chart](/assets/images/flow-chart.png)
 
 
-![ notes](assets/images/)
-
+ 
 ### Development
 
 Create a new Python project for the To-Do List App.
@@ -116,7 +114,7 @@ Write functions for adding tasks, listing tasks, and deleting tasks.
 Ensure these functions adhere to the logic outlined in the flowchart.
 
 
-![ name error](/assets/images/To-Do-List.png)
+![ To-do list display](/assets/images/Display%20.)
 
 
 
