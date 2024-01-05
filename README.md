@@ -1,5 +1,5 @@
 # To-Do List Bliss Application
-![To-do lisk header](/assets//)
+![To-do lisk header](/assets/images/to-do-list.png/)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
@@ -245,6 +245,9 @@ The ability for a manager to log into the system and confirm working dates and d
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
  ## 
+ The portal has been well tested and the results can be viewed [here - TESTING](hhttps://github.com/Graciekan21/Task-bliss/t/blob/main/)
+ The portal has been well tested and the results can be viewed [here - TESTING]()
+
 
 ## vali
 
