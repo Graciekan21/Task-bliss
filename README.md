@@ -246,8 +246,8 @@ The ability for a manager to log into the system and confirm working dates and d
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
  ## Validation
-  
-pEP8 - Python style guide checker imported - ![ HERE](https://pep8ci.herokuapp.com/)
+- App used for validation
+pEP8 - Python style guide checker imported - ![ HERE](/https://pep8ci.herokuapp.com/)
  
 The App performs well as it should but in the Pep8ci it show (all clear no errors found)
 ## Deployment
@@ -285,7 +285,7 @@ Every time i made a change in the code i pass it through formatter or it would s
 
 - For some reason images couldn't upload i spent hours on that and i was doing it the right way but they were not uploading. i sent hour on it thanks when the laptop closed and restarted the it worked 
 
-[Bugs solved](/assets/images/bugs-solved.png/)
+[Bugs solved](/assets/images/validated%20.png/)
 
 
 [Bugs unsolved](hhttps://pypi.org/project/pip/a/)
