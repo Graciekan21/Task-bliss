@@ -53,7 +53,12 @@ def main():
         print("3. Delete a task")
         print("4. Quit")
         # This calls all the function to perform as they should
-        choice = int(input("Enter your choice: "))
+        choice = 0
+        try:
+            choice = int(input("Enter your choice: "))
+        except ValueError as e:
+            print("invalid input entered")
+            continue
 
         if choice == 1:
             add_task()

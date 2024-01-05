@@ -1,5 +1,5 @@
 # To-Do List Bliss Application
-![To-Do header](/assets/images/flow-chart.png)
+![To-Do header](///)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
@@ -20,17 +20,16 @@ The deployed project live link is [HERE](/) - ***Use Ctrl (Cmd) and click to ope
   - [Delete Task](#Delete-Task)
   - [Quit](#Quit-message)
   - [main Function](#main-Function)
-  - [Additional Considerations](#dditional-Considerations)
-  - [Error Page](#error-page)
- - [Technologies Used](#technologies-used)
+- [Additional Considerations](#dditional-Considerations)
+- [Error Page](#error-page) - [Technologies Used](#technologies-used)
 - [Resources](#resources)
-  - [Libraries](#libraries)
+- [Libraries](#libraries)
 - [Testing](#testing)
 - [Future Updates](#future-updates)  
 - [Validation](#validation)
 - [Deployment](#deployment)
-  - [Heroku](#heroku)
-  - [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#)
+- [Heroku](#heroku)
+- [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#)
 - [Bugs](#bugs)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
@@ -38,39 +37,66 @@ The deployed project live link is [HERE](/) - ***Use Ctrl (Cmd) and click to ope
  
 ## Project 
 
-The aim of this project is to:
+Aims:
+Efficiency Improvement:
 
-- Allow users to remove tasks from their to-do list when completed or no longer relevant.
-Simplicity and Accessibility:
+- Aim to enhance users' productivity by providing a user-friendly and efficient task management system.
+User Engagement:
 
-Users expect the application to provide helpful error messages in case of incorrect inputs or unexpected issues.
-Adaptability:
+- Encourage regular use and engagement with the application by offering features that make task management enjoyable and rewarding.
+Cross-Platform Accessibility:
+
+- Ensure the application is accessible across various devices and platforms, allowing users to manage their tasks seamlessly on desktop, mobile, and tablet devices.
+Customization and Flexibility:
+
+- Provide users with the ability to customize the application to suit their individual preferences and workflow.
+Collaboration and Sharing:
+
+- Enable collaboration by allowing users to share tasks and lists with others, fostering teamwork and shared responsibility.
 
 ### User goals:
 
-Time Saving:
+- Task Management:
 
-- Users aim to save time by efficiently managing their tasks within the application.
-Error Handling:
+Users should be able to easily add, edit, and delete tasks.
+Prioritize tasks to focus on what's most important.
+Set due dates and reminders for tasks.
+User-Friendly Interface:
 
-- Streamline the process of managing tasks to save users time and effort.
-Minimize the learning curve, ensuring that users can quickly adapt to the application.*
+Provide an intuitive and user-friendly interface for quick and efficient task management.
+Cross-Platform Access:
 
-Users appreciate an application that can adapt to their changing task management needs and preferences.
+Seamless synchronization across devices, enabling users to access their to-do lists wherever they are.
+Customization:
 
-- Allow users to remove tasks from their to-do list when completed or no longer relevant.
-Simplicity and Accessibility:
+User should have the ability to personalize the appearance and settings of the application to suit their preferences.
+Collaboration:
+
+Support collaborative features, such as task sharing and commenting, to enhance teamwork and project management.
 
 ### Site owner goals
 
-- Create a user-friendly experience with a simple menu-driven interface.
-Make the application accessible to users with different levels of technical expertise.
-Efficient Workflow:
+- User Retention:
+
+Aim to keep users engaged by providing regular updates, new features, and improvements to the application.
+User Acquisition:
+
+Attract new users through effective marketing strategies, partnerships, and positive user reviews.
+Performance and Reliability:
+
+Ensure the application is robust, with minimal downtime and optimal performance to build trust among users.
+Data Security and Privacy:
+
+Prioritize the security and privacy of user data, building trust in the application's handling of sensitive information.
+Monetization (if applicable):
+
+If the application is a commercial product, aim for a sustainable revenue model that benefits both the users and the business.
 
 ### Pre development
-Flowchart and System Architecture:
+By the help of this great tool i create a flow chart Adds a task to list.,List tasks that are added to the Listt a
 
-Create a flowchart to visualize the flow of the application. Using  and system responses. Define the overall system architecture and how different components will interact.
+[Lucid.app](https://lucid.app/)
+
 
 
 
@@ -159,23 +185,9 @@ Error Messages:
 Provide informative error messages for better user understanding.
 
 
-![CCCCP hours](/assets/images/.png)
+![](/assets/images/.png)
 
-
- Based on information provided a calculation is made to determine pay before tax and then pay after tax and NI deductions.
-
-
-![CCCCP confirm](/assets/images/.png)
-
-The program checks that the contractor is ready to submit this information. 
-
-If they select yes, they receive confirmation of submission
-
-![CCCCP submission](/assets/images/cc-rm-information-submitted.png)
-
-If they select no, they are invited to re-submit, as shown above.
-
-### Error Page
+ ### Error Page
 
 A 404 error page has been included. The html was run through the W3C html validator and errors removed. A css style file was created to support the display of the text on the page.
 
@@ -208,9 +220,9 @@ Was used for indentation, it was my saving grace.
 ### Libraries
 [pip3](hhttps://pypi.org/project/pip/a/)
 
-## Testing
+## Validated
 
-The App has been well tested and the results can be viewed [here-TESTING](https://githu/-p3/blob/main/TESTING.md)
+The app has been validated and it workes as it should [here-tesSting](https://githu/-p3/blob/main/va.md)
 
 
 ## Future Updates
@@ -232,9 +244,12 @@ The ability for a manager to log into the system and confirm working dates and d
 
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
-Other future updates are included in the TESTING.md file.
+## Testing 
+Other future updates are included in the TESTING.png file.
 
-## Validation
+[Testing](/)
+
+#
 
 PEP8 - Python style guide checker imported - https://pep8ci.herokuapp.com//
 PEP8 - Python style guide checker imported - 
