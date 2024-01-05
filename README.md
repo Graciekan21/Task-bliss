@@ -1,4 +1,4 @@
-# To-Do List Bliss Application
+## To-Do List Bliss Application
 ![To-do lisk header](/assets/images/to-do-list.png/)
 
 ## Introduction
@@ -25,8 +25,7 @@ The deployed project live link is [HERE](https://task-bliss-bb2bc46bd6cf.herokua
  - [Technologies Used](#technologies-used)
 - [Resources](#resources)
 - [Libraries](#libraries)
-- [Test](#https://task-bliss-bb2bc46bd6cf.herokuapp.com/)
-- [Future Updates](#future-updates)  
+ - [Future Updates](#future-updates)  
 - [Validation](#validation)
 - [Deployment](#deployment)
 - [Heroku](#heroku)
@@ -114,7 +113,7 @@ Write functions for adding tasks, listing tasks, and deleting tasks.
 Ensure these functions adhere to the logic outlined in the flowchart.
 
 
-![ To-do list display](/assets/images/Display%20.png)
+![ To-do list display](/assets/images/Display.png/)
 
 
 
@@ -129,7 +128,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do List Bliss](/assets/images/task%20added%20.pnpng)
+![To-Do List Bliss](/assets/images/to-do-list.png/)
 
 ### List Tasks
 list_tasks() Function:
@@ -140,7 +139,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do list list a task](/assets/images/cc-rm-name.png)
+![To-Do list list a task](/assets/images/cc-rm-name.png/)
 
 ### Delete a Task
 Input: User selects to delete a task and provides the task number.
@@ -242,20 +241,11 @@ The ability for a manager to log into the system and confirm working dates and d
 
 Relevant information is accessible by the umbrella company so that HR doesn't have to collate and forward this information.
 
+ ## Validation
+
+pEP8 - Python style guide checker imported - https://pep8ci.herokuapp.com//
  
-## Testing
-
-The portal has been well tested and the results can be viewed live [here - TESTING](https://task-bliss-bb2bc46bd6cf.herokuapp.com/)
-
-## Validation
-
-
-
-PEP8 - Python style guide checker imported - https://pep8ci.herokuapp.com//
-PEP8 - Python style guide checker imported - 
-The App performs well as it should but in the Pep8ci it show (34: E722 do not use bare 'except')
-i left 
-
+The App performs well as it should but in the Pep8ci it show (all clear no errors found)
 ## Deployment
 
 ### Heroku
