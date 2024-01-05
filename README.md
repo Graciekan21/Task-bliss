@@ -128,7 +128,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do List Bliss](/assets/images/to-do-list.png/)
+![To-Do List Bliss](/assets/images/task-added.png/)
 
 ### List Tasks
 list_tasks() Function:
@@ -139,7 +139,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do list list a task](/assets/images/cc-rm-name.png/)
+![To-Do list list a task](/assets/images/to-do-list.png/)
 
 ### Delete a Task
 Input: User selects to delete a task and provides the task number.
@@ -154,13 +154,13 @@ Checks if the provided task number is within the valid range of indices.
 Displays an error message if the task number is invalid.
 None specified in the flowchart.
 
-![To-Do list delete a task](/assets/images/cc-rm-profession-invalid.png)
+![To-Do list delete a task](/assets/images/task-deleted.png/)
 
 ### Quit
 Option 4 allows users to exit the application, ending the to-do list management session.
 The application will display a messaga Good Luck
 
-![To-Do list Quit](/assets/images/cc-rm-profession-incorrect.png)
+![To-Do list Quit](/assets/images/cc-rm-profession-incorrect.png/)
 
 ### main() Function:
 Input: User selects options from the main menu.
