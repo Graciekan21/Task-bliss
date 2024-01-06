@@ -227,6 +227,8 @@ Was used for indentation, it was my saving grace.
 The app has been validated and it workes as it should ![p8pci](/https://pep8ci.herokuapp.com/)
 
 ## Testing 
+The portal has been well tested and the results can be viewed [here - TESTING](https://github.com/todiane/corri-construction-p3/blob/main/TESTING.md)
+
 
 ## Future Updates
 
