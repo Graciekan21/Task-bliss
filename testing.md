@@ -34,9 +34,15 @@ The error page was not created but if the user does anything unexpected you just
 
 As a result of testing requests for future functionality include:
 
-The ability to edit information already added if it is incorrect without having to start again.
+It is incorrect without having to start again, when the choice entered is anything else like "space" "letter" besides the choice given the result shouldn#t be error  
 
-Contractor can selection options for other payments that need to be removed from their pay e.g. student loan or pension to make their final pay amount more accurate.
+Task Details:
 
+Extend the task structure to include additional details (e.g., description, notes). Modify the add_task() and list_tasks() functions to handle and display these details.
+
+Task Completion and Progress Tracking:
+
+Implement a feature to mark tasks as complete. Enhance the list_tasks() function to display completed tasks separately, and add a progress indicator to track overall task completion.
+ 
 
 ### [BACK TO README](https://github.com/Graciekan21/Task-bliss/main/README.md)

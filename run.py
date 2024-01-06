@@ -31,7 +31,7 @@ def delete_task():
             print(f"Task {taskToDelete} deleted successfully. ")
         else:
             print(f"Task number{task} not found.")
-    except:
+    'except':
         print("lnvalid input.")
 
 
