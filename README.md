@@ -25,6 +25,7 @@ The deployed project live link is [HERE](https://task-bliss-bb2bc46bd6cf.herokua
  - [Technologies Used](#technologies-used)
 - [Resources](#resources)
 - [Libraries](#libraries)
+- [Testing](#testing)
  - [Future Updates](#future-updates)  
 - [Validation](#validation)
 - [Deployment](#deployment)
@@ -225,6 +226,7 @@ Was used for indentation, it was my saving grace.
 
 The app has been validated and it workes as it should ![p8pci](/https://pep8ci.herokuapp.com/)
 
+## Testing 
 
 ## Future Updates
 
