@@ -3,7 +3,7 @@
 
 Once the Application was operating I set for testing it for errors and to ensure that any possible errors can be made were caught.
 
-The deployed project live link is [HERE](/https://task-bliss-bb2bc46bd6cf.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project live link is [HERE](/Task-Bliss/README.md/https://task-bliss-bb2bc46bd6cf.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 Here are some sample tests you can perform:
 
