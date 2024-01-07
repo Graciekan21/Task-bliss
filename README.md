@@ -286,10 +286,14 @@ Every time i made a change in the code i pass it through formatter or it would s
 
 - For some reason images couldn't upload i spent hours on that and i was doing it the right way but they were not uploading. i sent hour on it thanks when the laptop closed and restarted the it worked 
 
+I had couldn't not see some of my images, it was fixed by adding an extra line '\n' at the end of my input.
+
+
+
 [Bugs solved](/assets/images/validated%20.png/)
 
 
-[Bugs unsolved](hhttps://pypi.org/project/pip/a/)
+[Bugs unsolved](/assets/images/no-error.png/)
 No bugs in the code but i didn't not create error page in case the user 404 
 
 ### Acknowledgments
