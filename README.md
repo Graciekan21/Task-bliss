@@ -4,7 +4,7 @@
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
 
-The deployed project live link is [HERE](/README.md/https://task-bliss-bb2bc46bd6cf.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project live link is [HERE](/Task-Bliss/README.md/https://task-bliss-bb2bc46bd6cf.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 ## Contents
 
