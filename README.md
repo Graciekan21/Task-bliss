@@ -190,7 +190,7 @@ In the case where the user dose some thing unexpected then the error message wil
 - Quit.
 This is what Displays when the command is run and the the user can select option by number, it gives all the insturtions needed.
 
-[Display options](assets/images/Display.png/)
+[run-program](assets/images/run-programm.png/)
 
  
  
@@ -248,7 +248,7 @@ Relevant information is accessible by the umbrella company so that HR doesn't ha
 
  ## Validation
 - App used for validation
-pEP8 - Python style guide checker imported - [ HERE](/assets/images/validator.png/)
+pEP8 - Python style guide checker imported - [ HERE](/assets/images/validation.png/)
  
 The App performs well as it should but in the Pep8ci it show (error 34: E722 do not use bare 'except' but it dosen't affect the performance of the app)
 ## Deployment
