@@ -96,7 +96,7 @@ If the application is a commercial product, aim for a sustainable revenue model 
 ### Pre development
 By the help of this great tool (Lucid.app) i able  create a flow chart and that what i followed step by step. it cllear of it performance.
 
-[ HERE](/https://lucid.app/lucidchart/fae51d00-791e-4c06-aad3-288e0c7d7465/edit?beaconFlowId=57B60594CCD410DE&invitationId=inv_29d0620b-981e-47fb-ae0a-ee177046555b&page=HWEp-vi-RSFO#/)
+![ HERE](/assets/images/flow-chart.png/)
 
 
  
@@ -219,13 +219,9 @@ Was used for indentation, it was my saving grace.
 
 [codebeautify](https://codebeautify.org/python-formatter-beautifier/)
 
-### Libraries Used
+ ### Libraries Used
 [pip3](hhttps://pypi.org/project/pip/a/)
-
-## Validated
-
-The app has been validated and it workes as it should ![p8pci](/https://pep8ci.herokuapp.com/)
-
+ 
 ## Testing 
 The portal has been well tested and the results can be viewed [here - TESTING](/https://github.com/Graciekan21/Task-bliss?tab=readme-ov-file/)
 
@@ -252,7 +248,7 @@ Relevant information is accessible by the umbrella company so that HR doesn't ha
 
  ## Validation
 - App used for validation
-pEP8 - Python style guide checker imported - [ HERE](/assets/images/validation.png/)
+pEP8 - Python style guide checker imported - [ HERE](/assets/images/validator.png/)
  
 The App performs well as it should but in the Pep8ci it show (error 34: E722 do not use bare 'except' but it dosen't affect the performance of the app)
 ## Deployment

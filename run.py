@@ -1,81 +1,58 @@
 # This creates Loop that runs the app
 tasks = []
-
-# Function for user to add task
-
-
 def add_task():
-    task = input("Please enter a task:")
+    task = input("Please enter a task: ")
     tasks.append(task)
-    print(f"Task '{task}' added successfully to list.")
-
-
+    print(f"Task '{task}' added successfully to the list.")
+    list_tasks()  # Show the updated list to the user
 def list_tasks():
     if not tasks:
-        print("No tasks listed:")
+        print("No tasks listed.")
     else:
-        print("New Tasks:")
-    for index, task in enumerate(tasks):
-        print(f"Task #{index}. {task}")
-
-
-# Delete task from the To-do list
-
-
+        print("Current Tasks:")
+        for index, task in enumerate(tasks):
+            print(f"Task #{index + 1}: {task}")
 def delete_task():
     list_tasks()
     try:
-        taskToDelete = int(input("Enter the number to delete: "))
-        if taskToDelete >= 0 and taskToDelete < len(tasks):
-            tasks.pop(taskToDelete)
-            print(f"Task {taskToDelete} deleted successfully. ")
+        task_to_delete = int(input("Enter the task number to delete: ")) - 1
+        if 0 <= task_to_delete < len(tasks):
+            deleted_task = tasks.pop(task_to_delete)
+            print(f"Task '{deleted_task}' deleted successfully.")
+            list_tasks()  # Show the updated list to the user
         else:
-            print(f"Task number{task} not found.")
-    'except':
-        print("lnvalid input.")
-
-
+            print(f"Task number {task_to_delete + 1} not found.")
+    'except' ValueError:
+        print("Invalid input. Please enter a task number.")
 def main():
-    """
-    Funtion that calls all the Functions to run in the command-line To-do list
-    """
-    print("To-Do List Bliss Application: ")
-
-    """
-     This creates an infinite loop
-    """
+    print("To-Do List Application")
     while True:
         print("\n")
-        print("Enter one of the numbers for options")
+        print("Available options:")
         print("=========================")
         print("1. Add a new task")
-        print("2. List a task")
+        print("2. List all tasks")
         print("3. Delete a task")
         print("4. Quit")
-        # This calls all the function to perform as they should
-        choice = 0
         try:
             choice = int(input("Enter your choice: "))
-        except ValueError as e:
-            print("invalid input entered")
-            continue
-
-        if choice == 1:
-            add_task()
-
-        elif choice == 2:
-            list_tasks()
-
-        elif choice == 3:
-            delete_task()
-
-        elif choice == 4:
-            print("Good Luck")
-            break
-
-        else:
-            print("Invalid choice. Please try again. ")
-
-
-if __name__ == "__main__":
+            if choice == 1:
+                add_task()
+            elif choice == 2:
+                list_tasks()
+            elif choice == 3:
+                delete_task()
+            elif choice == 4:
+                confirm_exit = input(
+                    "Are you sure you want to quit? (yes/no): ").lower()
+                if confirm_exit == 'yes':
+                    print("Exiting the application. Goodbye!")
+                    break
+                else:
+                    continue
+            else:
+                print("Invalid choice. Please try again.")
+        'except' ValueError:
+            print("Invalid input. Please enter a number between 1 and 4.")
+if _name_ == "_main_":
     main()
