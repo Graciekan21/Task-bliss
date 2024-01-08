@@ -1,5 +1,5 @@
 ## To-Do List Bliss Application
-![To-do lisk header](./assets/images/to-do-list.pn)
+![To-do lisk header](./assets/images/to-do-list.png)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
@@ -209,7 +209,7 @@ This is what Displays when the command is run and the the user can select option
  ### Lucid.app
  I used Lucid to create the flow chart which helped mt develop the app.
 
-[Lucid.app](https://lucid.app/)
+[Lucid.app](https://lucid.app)
 
 ### ChartGpt 
 It was used correcting my Readme with spell checking 
@@ -217,13 +217,13 @@ It was used correcting my Readme with spell checking
 ### codebeautify
 Was used for indentation, it was my saving grace.
 
-[codebeautify](https://codebeautify.org/python-formatter-beautifier/)
+[codebeautify](https://codebeautify.org/python-formatter-beautifier)
 
  ### Libraries Used
 [pip3](hhttps://pypi.org/project/pip/a/)
  
 ## Testing 
-The portal has been well tested and the results can be viewed [ HERE](https://github.com/Graciekan21/Task-bliss?tab/)
+The portal has been well tested and the results can be viewed [ HERE](https://github.com/Graciekan21/Task-bliss/blob/main/README.md)
 
 
 
@@ -248,7 +248,7 @@ Relevant information is accessible by the umbrella company so that HR doesn't ha
 
  ## Validation
 - App used for validation
-pEP8 - Python style guide checker imported - [ HERE](./assets/images/validation.png)
+pEP8 - Python style guide checker imported - [ HERE](./assets/images/no-error.png)
  
 The App performs well as it should but in the Pep8ci it show (error 34: E722 do not use bare 'except' but it dosen't affect the performance of the app)
 ## Deployment
