@@ -287,15 +287,12 @@ Every time i made a change in the code i pass it through formatter or it would s
 - For some reason images couldn't upload i spent hours on that and i was doing it the right way but they were not uploading. i sent hour on it thanks when the laptop closed and restarted the it worked 
 
 I had couldn't not see some of my images, it was fixed by adding an extra line '\n' at the end of my input.
+and also i had to add this ./ at the begining of the path way, then all images were showing and the links. all the to Tutor "Sean" for helping with that.
 
+I couldn't upload the image for solved error.
 
-
-[Bugs solved](./assets/images/validated%20.png)
-
-
-[Bugs unsolved](./assets/images/no-error.png)
-No bugs in the code but i didn't not create error page in case the user 404 
-
+ [Bugs unsolved](./assets/images/no-error.png)
+No bugs in the code but i didn't not create error page 404
 ### Acknowledgments
 Special thanks to all contributors who offered invaluable assistance during the development of the To-Do List Application. Your support and insights were instrumental in overcoming challenges and ensuring the success of this project. Your dedication, expertise, and willingness to share knowledge made a significant impact, and I am truly grateful for your contributions. Together, we created a robust and user-friendly To-Do List App that reflects the collaborative spirit of the coding community. Thank you for being an essential part of this journey.
 
