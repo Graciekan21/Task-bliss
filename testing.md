@@ -3,7 +3,7 @@
 
 Once the Application was operating I set for testing it for errors and to ensure that any possible errors can be made were caught.
 
-The deployed project [Link to Live Project](https:/task-bliss-bb2bc46bd6cf.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project [HERE](https:/task-bliss-bb2bc46bd6cf.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 Here are some sample tests you can perform:
 
@@ -28,7 +28,7 @@ It worked without issues in the above browsers.
 
 ## Error page
 The error page was not created but if the user does anything unexpected you just need click on the (run programm button) (I couldn't upload the run program button image, i refer to the diplay image)
-![run programm](/assets/images/run-programm.png)
+![run programm](./assets/images/run-programm.png)
 
 ## Future Updates
 
