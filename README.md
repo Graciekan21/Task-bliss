@@ -1,10 +1,10 @@
 ## To-Do List Bliss Application
-![To-do lisk header](../assets/images/to-do-list.pn)
+![To-do lisk header](./assets/images/to-do-list.pn)
 
 ## Introduction
 The To-Do List Bliss Application is a simple command-line tool designed to help users manage their tasks efficiently. Users can add, list, and delete tasks in an easy-to-use interface within the terminal. This application runs in an infinite loop, providing a seamless experience for managing your to-do list.
 
-The deployed project live link is [HEREiss-bb2bc46bd6cf.herokuapp.com/)- ***Use Ctrl (Cmd) and click to open in a new window.*** 
+The deployed project live link is [HERE](https://task-bliss-bb2bc46bd6cf.herokuapp.com)- ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
 ## Contentsgit
 
@@ -96,7 +96,7 @@ If the application is a commercial product, aim for a sustainable revenue model 
 ### Pre development
 By the help of this great tool (Lucid.app) i able  create a flow chart and that what i followed step by step. it cllear of it performance.
 
-![ HERE](/assets/images/flow-chart.png/)
+![ HERE](./assets/images/flow-chart.png)
 
 
  
@@ -114,7 +114,7 @@ Write functions for adding tasks, listing tasks, and deleting tasks.
 Ensure these functions adhere to the logic outlined in the flowchart.
 
 
-![ To-do list display](/assets/images/Display.png/)
+![ To-do list display](./assets/images/Display.png)
 
 
 
@@ -129,7 +129,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do List Bliss](/assets/images/task-added.png/)
+![To-Do List Bliss](./assets/images/task-added.png)
 
 ### List Tasks
 list_tasks() Function:
@@ -140,7 +140,7 @@ Checks if there are any tasks in the list.
 If tasks exist, displays each task with its corresponding index.
 If no tasks, displays a message indicating that there are no tasks.None specified in the flowchart.
 
-![To-Do list list a task](/assets/images/to-do-list.png/)
+![To-Do list list a task](./assets/images/to-do-list.png)
 
 ### Delete a Task
 Input: User selects to delete a task and provides the task number.
@@ -155,13 +155,13 @@ Checks if the provided task number is within the valid range of indices.
 Displays an error message if the task number is invalid.
 None specified in the flowchart.
 
-![To-Do list delete a task](/assets/images/task-deleted.png/)
+![To-Do list delete a task](./assets/images/task-deleted.png)
 
 ### Quit
 Option 4 allows users to exit the application, ending the to-do list management session.
 The application will display a messaga Good Luck
 
-![To-Do list Quit](/assets/images/quit-end.png/)
+![To-Do list Quit](./assets/images/quit-end.png)
 
 ### main() Function:
 Input: User selects options from the main menu.
@@ -172,7 +172,7 @@ Takes user input for their choice.
 Calls the corresponding function based on the user's choice.
 Loops until the user chooses to quit the application.
 
-![ main](/assets/images/App-display.png/)
+![ main](./assets/images/App-display.png)
 
 ### Additional Considerations:
 User Interface:
@@ -190,7 +190,7 @@ In the case where the user dose some thing unexpected then the error message wil
 - Quit.
 This is what Displays when the command is run and the the user can select option by number, it gives all the insturtions needed.
 
-[run-program](assets/images/run-programm.png/)
+[run-program](./assets/images/run-programm.png)
 
  
  
@@ -223,7 +223,7 @@ Was used for indentation, it was my saving grace.
 [pip3](hhttps://pypi.org/project/pip/a/)
  
 ## Testing 
-The portal has been well tested and the results can be viewed [ HERE](/https://github.com/Graciekan21/Task-bliss?tab/)
+The portal has been well tested and the results can be viewed [ HERE](https://github.com/Graciekan21/Task-bliss?tab/)
 
 
 
@@ -248,7 +248,7 @@ Relevant information is accessible by the umbrella company so that HR doesn't ha
 
  ## Validation
 - App used for validation
-pEP8 - Python style guide checker imported - [ HERE](/assets/images/validation.png/)
+pEP8 - Python style guide checker imported - [ HERE](./assets/images/validation.png)
  
 The App performs well as it should but in the Pep8ci it show (error 34: E722 do not use bare 'except' but it dosen't affect the performance of the app)
 ## Deployment
@@ -290,10 +290,10 @@ I had couldn't not see some of my images, it was fixed by adding an extra line '
 
 
 
-[Bugs solved](/assets/images/validated%20.png/)
+[Bugs solved](./assets/images/validated%20.png)
 
 
-[Bugs unsolved](/assets/images/no-error.png/)
+[Bugs unsolved](./assets/images/no-error.png)
 No bugs in the code but i didn't not create error page in case the user 404 
 
 ### Acknowledgments
