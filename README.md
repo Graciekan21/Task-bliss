@@ -298,7 +298,7 @@ Special thanks to all contributors who offered invaluable assistance during the 
 
  - His channel helped me alot every time i was stack and understanding the project i wanted to do[@TSInfoTechnologies](​https://www.youtube.com/watch?v=n4YzgrfAIkI&t=140s&ab_channel=TSInfoTechnologies)
 
-helped me in understanding how to delete a task function works[here](https://cppsecrets.com/users/1562979810410511510410110746116105119971141055153485564103109971051084699111109/Python-Delete-a-Task-Lis name - [-or-not/)
+helped me in understanding how to delete a task function works[here](https://cppsecrets.com/users/1562979810410511510410110746116105119971141055153485564103109971051084699111109/Python-Delete-a-Task-List name - -or-not/)
 
 
 This was were i got the form of how to defining the function [here](https://www.javatpoint.com/simple-to-do-list-gui-application-in-python )
