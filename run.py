@@ -1,5 +1,48 @@
 # This creates Loop that runs the app
+
+from datetime import datetime
+
 tasks = []
+# Enter task and the date you want the task to be done
+def add_task():
+    task = input("Please enter a task: ")
+    due_date_str = input("Please enter a due date (YYYY-MM-DD): ")
+
+    try:
+        due_date = datetime.strptime(due_date_str, "%Y-%m-%d")
+        tasks.append({"task": task, "due_date": due_date, "completed": False})
+        print(f"Task '{task}' added successfully to the list with due date {due_date.strftime('%Y-%m-%d')}.")
+        list_tasks()
+
+            list_tasks()
+    except ValueError:
+        print("Invalid date format. Please enter the date in YYYY-MM-DD format.")
+        add_task()
+
+def list_tasks(filter_status=None):
+    if not tasks:
+        print("No tasks listed.")
+        return
+    #If the task is not completed it will pend
+    if filter_status == "completed":
+        filtered_tasks = [task for task in tasks if task["completed"]]
+    elif filter_status == "pending":
+        filtered_tasks = [task for task in tasks if not task["completed"]]
+    else:
+        filtered_tasks = tasks
+         if not filtered_tasks:
+        print("No tasks found for the selected filter.")
+        return
+    
+    print("Current Tasks:")
+    for index, task in enumerate(filtered_tasks):
+        status = "Completed" if task["completed"] else "Pending"
+        print(f"Task #{index + 1}: {task['task']} (Due: {task['due_date'].strftime('%Y-%m-%d')}, Status: {status})")
+
+
+
+
+
 
 
 def add_task():
