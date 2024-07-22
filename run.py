@@ -1,20 +1,15 @@
-# This creates Loop that runs the app
-
 from datetime import datetime
 
 tasks = []
-# Enter task and the date you want the task to be done
+
 def add_task():
     task = input("Please enter a task: ")
     due_date_str = input("Please enter a due date (YYYY-MM-DD): ")
-
     try:
         due_date = datetime.strptime(due_date_str, "%Y-%m-%d")
         tasks.append({"task": task, "due_date": due_date, "completed": False})
         print(f"Task '{task}' added successfully to the list with due date {due_date.strftime('%Y-%m-%d')}.")
         list_tasks()
-
-            list_tasks()
     except ValueError:
         print("Invalid date format. Please enter the date in YYYY-MM-DD format.")
         add_task()
@@ -23,14 +18,15 @@ def list_tasks(filter_status=None):
     if not tasks:
         print("No tasks listed.")
         return
-    #If the task is not completed it will pend
+    
     if filter_status == "completed":
         filtered_tasks = [task for task in tasks if task["completed"]]
     elif filter_status == "pending":
         filtered_tasks = [task for task in tasks if not task["completed"]]
     else:
         filtered_tasks = tasks
-         if not filtered_tasks:
+    
+    if not filtered_tasks:
         print("No tasks found for the selected filter.")
         return
     
@@ -39,8 +35,7 @@ def list_tasks(filter_status=None):
         status = "Completed" if task["completed"] else "Pending"
         print(f"Task #{index + 1}: {task['task']} (Due: {task['due_date'].strftime('%Y-%m-%d')}, Status: {status})")
 
-#This handals task delete if task number is enter 
-        def delete_task():
+def delete_task():
     list_tasks()
     try:
         task_to_delete = int(input("Enter the task number to delete: ")) - 1
@@ -48,7 +43,7 @@ def list_tasks(filter_status=None):
             deleted_task = tasks.pop(task_to_delete)
             print(f"Task '{deleted_task['task']}' deleted successfully.")
             list_tasks()
-             else:
+        else:
             print(f"Task number {task_to_delete + 1} not found.")
     except ValueError:
         print("Invalid input. Please enter a valid task number.")
@@ -56,16 +51,15 @@ def list_tasks(filter_status=None):
 def edit_task():
     list_tasks()
     try:
-         task_to_edit = int(input("Enter the task number to edit: ")) - 1
+        task_to_edit = int(input("Enter the task number to edit: ")) - 1
         if 0 <= task_to_edit < len(tasks):
             new_task = input("Please enter the new task: ")
             new_due_date_str = input("Please enter the new due date (YYYY-MM-DD): ")
             try:
-
-new_due_date = datetime.strptime(new_due_date_str, "%Y-%m-%d")
+                new_due_date = datetime.strptime(new_due_date_str, "%Y-%m-%d")
                 tasks[task_to_edit].update({"task": new_task, "due_date": new_due_date})
                 print(f"Task #{task_to_edit + 1} updated successfully.")
-list_tasks()
+                list_tasks()
             except ValueError:
                 print("Invalid date format. Please enter the date in YYYY-MM-DD format.")
                 edit_task()
@@ -83,41 +77,10 @@ def mark_task_completed():
             print(f"Task '{tasks[task_to_mark]['task']}' marked as completed.")
             list_tasks()
         else:
-            print(f"Task number {task_to_mark + 1} not 
-
-def add_task():
-    task = input("Please enter a task: ")
-    tasks.append(task)
-    print(f"Task '{task}' added successfully to the list.")
-    list_tasks()  # Show the updated list to the user
-
-
-def list_tasks():
-    if not tasks:
-        print("No tasks listed.")
-    else:
-        print("Current Tasks:")
-        for index, task in enumerate(tasks):
-            print(f"Task #{index + 1}: {task}")
-
-
-def delete_task():
-    list_tasks()
-    try:
-        task_to_delete = int(input("Enter the task number to delete: \n")) - 1
-        if 0 <= task_to_delete < len(tasks):
-            deleted_task = tasks.pop(task_to_delete)
-            print(f"Task '{deleted_task}' deleted successfully.")
-            list_tasks()  # Show the updated list to the user
-        else:
-            print(f"Task number {task_to_delete + 1} not found.")
-    except ValueError:
-        print("Invalid input. Please enter a task number.\n")
-
-        found.")
+            print(f"Task number {task_to_mark + 1} not found.")
     except ValueError:
         print("Invalid input. Please enter a valid task number.")
-#Options Available for the To-Do List
+
 def main():
     print("To-Do List Application")
     while True:
@@ -132,7 +95,6 @@ def main():
         print("7. Mark task as completed")
         print("8. Quit")
         try:
-
             choice = int(input("Enter your choice: "))
             if choice == 1:
                 add_task()
@@ -152,7 +114,7 @@ def main():
                 confirm_exit = input("Are you sure you want to quit? (yes/no): ").lower()
                 if confirm_exit == "yes":
                     print("Exiting the application. Goodbye!")
-                        break
+                    break
                 else:
                     continue
             else:
@@ -160,5 +122,5 @@ def main():
         except ValueError:
             print("Invalid input. Please enter a number between 1 and 8.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
